@@ -26,15 +26,7 @@ public class DomParserschema {
 			Boolean flag = false;
 			DocumentBuilder myBuilder = myFactory.newDocumentBuilder();
 			SchemaFactory mySchemaFactory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
-			try {
-				((mySchemaFactory.newSchema(new File("MyXMLSchema.xsd"))).newValidator())
-						.validate(new StreamSource(new File("schema.xml")));
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-				flag = true;
-
-			}
+			
 			if (flag == true) {
 				System.out.println("Error occured while validating xml");
 			} else {
