@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+<xs:element name="Address">
+<xs:complexType>
+    <xs:sequence>
+        <xs:element name="Name" type="xs.string"/>
+        <xs:element name="University" type="xs.string"/>
+        <xs:element name="Phone" type="xs.int"/>
+  
+    </xs:sequence>
+    
+</xs:complexType>
+</xs:element>
+</xs:schema>

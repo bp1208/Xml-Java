@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE Address[
+<!ELEMENT Address (Name,University,Phone)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT University (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
+]>
+<Address>
+    <Name>Brindavani</Name>
+    <University>Pace University</University>
+    <Phone>960-338-8116</Phone>
+</Address > 
