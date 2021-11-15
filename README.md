@@ -4,5 +4,5 @@ DOM stands for Document Object Model , reads an entire document , it will read t
 DOM parser schema : is used to validate wheather the format or data of XMl is valid or not 
 To complie : javac DomParserDTD.java
 To run: java DomParserDTD
-DOM parser  Schema :  To Complie :javac DomPareserSchema.java
-To run : java DomPareseSchema
+DOM parser  Schema :  To Complie :javac DomPareserschema.java
+To run : java DomPareseschema
